@@ -8,7 +8,9 @@ const NotActiveCard = ({ icon, title }) => {
       <div className="text-div">
         <h2>{title} </h2>
       </div>
-      <a href="/">know more</a>
+      <a href="/" className="know-more">
+        know more
+      </a>
     </div>
   );
 };
