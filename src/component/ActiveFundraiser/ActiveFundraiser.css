@@ -1,0 +1,286 @@
+.active-fundraiser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundraiser-container {
+  max-width: 1440px;
+  min-height: 800px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fundraiser-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fundraiser-heading {
+  max-width: 730px;
+  min-height: 48px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.fundraiser-header hr {
+  width: 100px;
+  border-color: #fec003;
+}
+
+.fundraiser-body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  max-width: 1040px;
+  min-height: 452px;
+  margin: 60px 0;
+}
+
+.fundraiser-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 320px;
+  height: 452px;
+
+  /* Widget */
+
+  filter: drop-shadow(0px 7px 14px rgba(0, 0, 0, 0.1));
+  border-radius: 10px;
+}
+
+.fundraiser-title {
+  width: 280px;
+  height: 44px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  /* or 129% */
+
+  color: #444444;
+}
+
+.fundraiser-image {
+  width: 320px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.fundraiser-description {
+  /* padding: 20px; */
+  margin-top: 0px;
+  width: 320px;
+  height: 252px;
+
+  /* ffffff */
+
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.fundraiser-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: center; */
+}
+
+.fundraiser-description-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+}
+.description-image {
+  height: 32px;
+  width: 32px;
+}
+
+.fundraiser-subtitle {
+  width: 109px;
+  height: 20px;
+
+  /* Subtitle - 14 */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.amount {
+  width: 280px;
+  height: 36px;
+
+  /* H2 - 26 */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.amount-gray {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #999999;
+}
+
+.donation-date {
+  width: 162px;
+  height: 27px;
+
+  /* Body1 - 17 */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+
+  /* 999999 */
+
+  color: #999999;
+}
+
+.fundraiser-body-footer {
+  width: 80%;
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.fundraiser-description p {
+  margin: 0;
+}
+
+.fundraiser-description h2 {
+  margin: 0;
+}
+
+.fundraiser-body-footer p {
+  width: 66px;
+  height: 23px;
+  display: flex;
+  gap: 3px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #444444;
+}
+.fundraiser-body-footer p span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.fundraiser-footer-text {
+  width: 78px;
+  height: 20px;
+
+  /* CTA - 17 */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height, or 118% */
+
+  text-transform: capitalize;
+
+  /* 01bfbd */
+
+  color: #01bfbd;
+}
+
+progress {
+  border: none;
+  width: 280px;
+  height: 3px;
+  background: rgba(1, 191, 189, 0.2);
+  border-radius: 50%;
+}
+
+progress {
+  color: #01bfbd;
+}
+
+progress::-moz-progress-bar {
+  background: rgba(1, 191, 189, 0.2);
+}
+
+progress::-webkit-progress-value {
+  background: #01bfbd;
+}
+
+progress::-webkit-progress-bar {
+  background: rgba(1, 191, 189, 0.2);
+}
+
+@media (max-width: 768px) {
+  .fundraiser-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    max-width: 1040px;
+    min-height: 452px;
+    margin: 60px 0;
+  }
+  .fundraiser-container {
+    max-width: 1440px;
+    min-height: 800px;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

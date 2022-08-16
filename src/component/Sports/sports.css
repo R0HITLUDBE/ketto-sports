@@ -1,0 +1,128 @@
+.sports-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  min-height: 1624px;
+  background: #f5f5f5;
+}
+
+.sports-container hr {
+  max-width: 100px;
+  border-color: #fec003;
+}
+
+.sports-header {
+  max-width: 730px;
+  padding: 0 80px;
+  text-align: center;
+}
+
+.sports-container p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* or 159% */
+  color: #999999;
+}
+
+.sports-header p {
+  text-align: center;
+}
+
+.sports-header h1 {
+  max-width: 730px;
+  min-height: 48px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+  color: #444444;
+}
+.sports-story-content {
+  width: 480px;
+}
+
+.sports-stories h2 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  color: #444444;
+}
+
+.sports-stories {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sports-stories img {
+  width: 440px;
+  height: 325px;
+  border-radius: 10px;
+}
+
+.sports-story {
+  display: flex;
+  gap: 110px;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.sports-story-inverse {
+  display: flex;
+  gap: 110px;
+  padding: 0px 0px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .sports-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .sports-story {
+    display: flex;
+    gap: 0px;
+    padding: 0px 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sports-story-inverse {
+    display: flex;
+    gap: 0px;
+    padding: 0px 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sports-header {
+    max-width: 730px;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .sports-story-content {
+    width: 280px;
+  }
+  .sports-stories img {
+    width: 100vw;
+    height: 325px;
+    border-radius: 10px;
+  }
+}

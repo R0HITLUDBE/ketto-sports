@@ -1,0 +1,148 @@
+.ketto-offer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.offers-heading {
+  max-width: 730px;
+  min-height: 48px;
+  align-self: center;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.offer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  min-height: 713px;
+  padding: 80px;
+  gap: 40px;
+}
+
+.offers-heading-hr {
+  width: 100px;
+  border-color: #fec003;
+}
+
+.offers-hr {
+  width: 77px;
+  height: 2px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  border: none;
+  background: #eeeeee;
+}
+
+.offer-elements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+  margin: 20px 0;
+  gap: 20px;
+  justify-content: center;
+  max-width: 350px;
+  min-height: 121px;
+  border: none;
+  background: rgba(43, 91, 13, 0.03);
+  border-radius: 10px;
+}
+
+.offer-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.offer-description {
+  width: 250px;
+  height: 54px;
+  padding: 20px;
+  /* Body1 - 17 */
+  display: flex;
+  align-items: center;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* or 159% */
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.elements-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1280px;
+  /* height: 423px; */
+}
+
+@media (max-width: 768px) {
+  .elements-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    max-width: 1280px;
+    /* height: 423px; */
+  }
+
+  .offer-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 0px !important;
+    gap: 20px;
+    justify-content: center;
+    width: 350px;
+    height: 121px;
+    border: none;
+    background: rgba(43, 91, 13, 0.03);
+    border-radius: 10px;
+  }
+
+  .offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    min-height: 713px;
+    padding: 80px 0;
+    gap: 10px;
+  }
+  .offer-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    margin: 15px 0;
+    gap: 20px;
+    justify-content: center;
+    max-width: 320px;
+    min-height: 121px;
+    border: none;
+    background: rgba(43, 91, 13, 0.03);
+    border-radius: 10px;
+  }
+}

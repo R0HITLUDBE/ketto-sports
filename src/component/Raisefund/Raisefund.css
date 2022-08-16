@@ -1,0 +1,186 @@
+.Raisefund {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.Raisefund hr {
+  width: 100px;
+  border-color: #fec003;
+}
+.cards-wrapper hr {
+  width: 40px;
+  border-color: #fec003;
+}
+
+.raisefund-header {
+  max-width: 730px;
+  padding: 0 80px;
+  text-align: center;
+}
+
+.Raisefund p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* or 159% */
+  color: #999999;
+}
+
+.raisefund-header p {
+  text-align: center;
+}
+
+.raisefund-header h1 {
+  max-width: 730px;
+  min-height: 48px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+  color: #444444;
+}
+
+.cards-wrapper {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  overflow-x: scroll;
+}
+.cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.cards-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  gap: 10px;
+
+  width: 176px !important;
+  height: 215px;
+  background: #ffffff;
+  /* eeeeee */
+
+  border: 1px solid #eeeeee;
+  /* Elevation/Pop-up/high */
+
+  box-shadow: 0px 18px 36px rgba(63, 52, 146, 0.05),
+    0px 30px 60px rgba(50, 75, 93, 0.1);
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height, or 147% */
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+
+  width: 80px;
+  height: 80px;
+
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+}
+
+.icon {
+  height: 33px;
+  width: 33px;
+  color: #039695;
+}
+
+.btn {
+  align-items: center;
+  padding: 15px 20px;
+
+  width: 248px;
+  height: 50px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  /* 01bfbd */
+  color: #ffffff;
+  background: #01bfbd;
+  /* Elevation / Button / Soft / Colored */
+  border: none;
+  box-shadow: 0px 4px 8px rgba(1, 191, 189, 0.3);
+  border-radius: 8px;
+}
+
+.raisefund-footer {
+  max-width: 730px;
+  padding: 0 80px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.containerElement-mobile {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 1024px) {
+  .raisefund-header {
+    max-width: 730px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .raisefund-footer {
+    max-width: 730px;
+    padding: 0 37px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .containerElement-mobile {
+    display: none;
+  }
+
+  .cards-wrapper {
+    overflow-x: scroll;
+    min-width: 360px;
+    min-height: 215px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 30px;
+    gap: 10px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,175 @@
+.hear {
+  background: #f5f5f5;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.hear-container {
+  height: 100%;
+  max-width: 1440px;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hear-title {
+  max-width: 730px;
+  min-height: 48px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.hear-header hr {
+  width: 100px;
+  border-color: #fec003;
+}
+
+.hear-description {
+  max-width: 730px;
+  min-height: 27px;
+
+  /* Body1 - 17 */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+
+  text-align: center;
+
+  /* 999999 */
+
+  color: #999999;
+}
+
+.hear-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hear-content-description {
+  max-width: 540px;
+  min-height: 108px;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* or 159% */
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.hear-info {
+  margin-left: 100px;
+}
+
+.hear-info-name {
+  max-width: 425px;
+  min-height: 27px;
+  margin: 0;
+  /* Body1 - 17 */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+
+  /* 444444 */
+
+  color: #444444;
+}
+
+.hear-info-description {
+  max-width: 425px;
+  min-height: 40px;
+
+  /* Subtitle - 14 */
+  margin: 0;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* 999999 */
+
+  color: #999999;
+}
+
+.hear-image {
+  width: 50px;
+  height: 50px;
+
+  /* fec003 */
+  /* 
+  border: 3px solid #fec003;
+  border-radius: 50px; */
+}
+.quotation {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+
+.hear-content-top {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+
+  /* justify-content: center; */
+}
+
+@media (max-width: 768px) {
+  .hear-container {
+    height: 100%;
+    max-width: 1440px;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .quotation {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .hear-info {
+    margin-left: 0px;
+  }
+  .hear-content-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+    gap: 20px;
+
+    /* justify-content: center; */
+  }
+}
