@@ -221,12 +221,12 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px;
+  padding: 20px 0;
   gap: 20px;
 
   /* position: absolute; */
   width: 445px;
-  min-height: 662px;
+  max-height: 662px;
   /* left: 830px;
   top: 104px; */
 
@@ -250,7 +250,7 @@ select {
   font-size: 26px;
   line-height: 33px;
   /* identical to box height, or 127% */
-
+  margin: 0;
   display: flex;
   align-items: center;
   text-align: center;
@@ -328,7 +328,7 @@ select {
   font-size: 14px;
   line-height: 20px;
   /* identical to box height, or 143% */
-
+  margin: 0;
   display: flex;
   align-items: center;
   text-align: center;
@@ -476,7 +476,7 @@ select {
     gap: 20px;
 
     max-width: 340px;
-    min-height: 630px;
+    max-height: 630px;
 
     /* ffffff */
 
